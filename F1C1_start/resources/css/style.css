@@ -275,6 +275,20 @@ nav .button {
   color: #4a4a4a;
 }
 
+.image-container img {
+  display: block;
+  height: 65%;
+  width: 100%;
+}
+
+center {
+  text-align: center;
+}
+
+.content {
+  padding: 40px 0;
+}
+
 @media only screen and (max-width: 890px) {
   .feature h2 {
     font-size: 1.125rem;
@@ -286,9 +300,18 @@ nav .button {
     font-size: .875rem;
     line-height: 1.4;
   }
+
+  #features-section {
+    padding: 1rem;
+      }
+
+  .feature {
+    margin: 0px 0.5rem;
+    padding: 1rem;
+  }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 600px) {
   #features-section {
     flex-flow: column;
     padding: 0;
